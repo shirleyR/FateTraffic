@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<something-else-entirely>
+	<use-proxool>xml-websms</use-proxool>
+
+	<model>1</model>
+	<proxool>
+
+		<alias>xml-websms</alias>
+
+		<driver-url>jdbc:oracle:thin:@localhost:1521:orcl</driver-url>
+
+		<driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+
+		<driver-properties>
+			<property name="user" value="vimas" />
+			<property name="password" value="vm" />
+		</driver-properties>
+
+		<maximum-connection-count>2000</maximum-connection-count>
+
+		<maximum-active-time>360000000</maximum-active-time>
+		<statistics>10s,5m</statistics>
+		<house-keeping-test-sql>
+			select CURRENT_DATE()
+		</house-keeping-test-sql>
+	</proxool>
+</something-else-entirely>

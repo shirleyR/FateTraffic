@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="FateTraffic:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/FateTraffic_war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="FateTraffic/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FateTraffic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ojdbc6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/proxool-0.9.0RC3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.2-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-core-1.7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.2-jdk15-javadoc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.2-jdk15-sources.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/org.hamcrest.core_1.1.0.v20090501071000.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mdsj.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/orai18n.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/Jama-1.0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
